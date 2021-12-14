@@ -7,7 +7,7 @@ import Error from "./Components/Error";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={"/pimi"}>
         <Menu />
         <Switch>
           <Route path="/error">
